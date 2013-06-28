@@ -12,4 +12,4 @@ dist_rubberducky_SOURCES = mediaserver.c \
 		      	   amf.c \
 		      	   radixtree/radix.c
 
-INCLUDES = -I$(srcdir) -I. -I$(srcdir)/radixtree -Iradixtree
+AM_CPPFLAGS = -I$(srcdir) -I. -I$(srcdir)/radixtree -Iradixtree
